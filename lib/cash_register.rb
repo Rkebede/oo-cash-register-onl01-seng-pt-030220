@@ -22,8 +22,8 @@ class CashRegister
     end 
   end
   
-  def items
-    [ ] << add_item(title, price, quantity = 1)
+  def items(title, price)
+    add_item(title, price, quantity = 1)
   end 
  
 end 
