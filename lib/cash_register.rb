@@ -17,5 +17,6 @@ class CashRegister
     new_total = @total -= (@total * discount)
     puts "After the discount, the total comes to" new_total
   end
+  end
  
 end 
