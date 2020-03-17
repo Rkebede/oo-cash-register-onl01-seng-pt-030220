@@ -23,7 +23,7 @@ class CashRegister
   end
   
   def items
-    
+    [] << add_item(title, price, quantity = 1)
   end 
  
 end 
